@@ -6,15 +6,17 @@ public class Hare {
     private double now;
     private double now1;
     private double prig;
+    private double prig1;
     private double kolprig;
 
 
-    public Hare (double born, double born1, double now, double now1, double prig, double kolprig){
+    public Hare (double born, double born1, double now, double now1, double prig, double prig1, double kolprig){
         this.born = born;
         this.born1 = born1;
         this.now = now;
         this.now1 = now1;
         this.prig = prig;
+        this.prig1 = prig1;
         this.kolprig = kolprig;
     }
 
